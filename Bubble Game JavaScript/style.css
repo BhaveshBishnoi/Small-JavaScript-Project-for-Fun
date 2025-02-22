@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  
+}
+.main {
+  height: 100%;
+  width: 100%;
+  background: #6384f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.panel {
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 8px;
+}
+#upnl{
+  width: 100%;
+  height: 70px;
+  background-color: #3143de;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-around;
+}
+.box{
+  display: flex;
+  align-items: center;
+}
+.min{
+  height: 30px;
+  color: #0f1d96;
+  font-size: 18px;
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 7px;
+  margin: 8px;
+}
+#bpnl{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.gola{
+  height: 35px;
+  width: 35px;
+  background-color: #3143de;
+  border-radius: 50%;
+  margin: 3px;
+  padding: 5px;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gola:hover{
+  background-color: #0f1d96;
+  cursor: pointer;
+}

@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    
+}
+form{
+    margin: 10px 20px;
+    font-size: 20px;
+    
+}
+#user{
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 15px;
+    border-color: lightseagreen;
+}
+#submit{
+    padding: 8px;
+    font-size: 15px;
+}
+#card{
+display: flex;
+height: 280px;
+width: 560px;
+border: 2px solid lightseagreen;
+margin-left: 10px;
+border-radius: 10px;
+background-color: lightseagreen;
+}
+#profile{
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+}
+#profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 5px;
+    background: linear-gradient(yellow, red, purple, pink, green, blue);
+}
+#info{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hold{
+    font-weight: 600;
+    color: aliceblue;
+}
+
+#name, #userid, #location, #publicrapo, #blog{
+    font-weight: 300;
+}

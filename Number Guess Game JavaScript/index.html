@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guess Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <h2>Number Guess Game</h2>
+      <p>Guess the Number Between 1 to 100, You can Guess 10 Times</p>
+      <label for="guessNum"></label>
+      <input type="number" name="guessNum" id="inputbox" /> <br />
+      <button id="submit">Submit Number</button>
+      <p>Previce Guesses - <span id="preguess"></span></p>
+      <p>Remaining Guess <span id="remainingguess"></span></p>
+      <p id="answer"></p>
+    </div>
+    <script src="logic.js"></script>
+  </body>
+</html>

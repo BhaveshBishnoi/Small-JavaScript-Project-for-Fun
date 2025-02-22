@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#box {
+  background-color: antiquewhite;
+  width: 400px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 7px;
+  border-radius: 8px;
+  border: none;
+  margin: 10px 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(0, 131, 87);
+  color: aliceblue;
+  border: none;
+  border-radius: 7px;
+}
+button:hover,
+active {
+  background: #0e8b00;
+  color: antiquewhite;
+}
